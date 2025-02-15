@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyasmd"
+version = "0.1.0"
+description = "A simple arithmetic operations library supporting dynamic inputs."
+authors = [
+    { name = "Vishnu Vardhan Reddy", email = "gvvr2001@gmail.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.6"
+
+[tool.setuptools]
+packages = ["pyasmd"]
+
+[project.urls]
+"Homepage" = "https://github.com/ThippaluruNithinReddy/pyasmd"
+"Repository" = "https://github.com/ThippaluruNithinReddy/pyasmd"

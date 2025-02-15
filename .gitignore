@@ -1,0 +1,34 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+venv/
+.env/
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/
+*.log
+
+#files
+*.json
+*.csv
+*.pdf
+*.txt
+*.docx
+*.doc
+*.yaml
+
+!requirements.txt
